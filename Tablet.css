@@ -1,0 +1,18 @@
+@media (min-width: 810px) {
+    .header-container {
+        height: 82px;
+    }
+
+    .container-all {
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+
+    .header-content {
+        padding: 24px;
+    }
+
+    .line-bottom {
+        border-bottom: 1px solid rgb(9, 9, 11);
+    }
+}
