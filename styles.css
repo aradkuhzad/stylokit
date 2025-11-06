@@ -1,5 +1,6 @@
 .header-container {
     background-color: rgb(9, 9, 11);
+    border-bottom: 1px solid rgb(9, 9, 11);
     width: 100%;
     opacity: 1;
     height: 64px;
@@ -17,3 +18,61 @@
     inset: 8px 0 0;
 }
 
+.header-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    flex: none;
+    width: 104px;
+    height: 24px;
+    position: relative;
+}
+
+.brand-logo svg {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-toggle {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+
+.menu-icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-icon__bar {
+    width: 20px;
+    height: 2px;
+}
+
+.menu-icon__bar-2 {
+    width: 20px;
+    height: 2px;
+}
