@@ -1,3 +1,8 @@
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: "SF Pro Display Semibold", sans-serif;
     src: url("font/FontsFree-Net-SFProDisplay-Semibold\ \(1\).ttf");
