@@ -108,15 +108,21 @@
 }
 
 
-
+.All-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 .section-2 {
     position: relative;
     display: flex;
     width: 100%;
     padding: 64px 16px 0px;
-    height: 200px;
     top: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
 
