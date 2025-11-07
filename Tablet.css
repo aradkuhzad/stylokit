@@ -65,4 +65,21 @@
         padding: 0px 6px;
     }
 
+    .section-2 {
+        padding: 96px 24px;
+    }
+
+
+    .first-sentence {
+        
+        text-align: left;
+        font-size: 56px;
+        font-weight: 600;
+    }
+
+    .second-sentence {
+    display: flex;
+    width: 560px;
+    }
+
 }
