@@ -34,9 +34,8 @@
 
     .button {
         display: flex;
-        flex: none;
-        width: auto;
-        height: auto;
+        width: max-content;
+        height: max-content;
         position: relative;
     }
 
