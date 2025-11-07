@@ -1,6 +1,93 @@
-@media (min-width: 1199px) {
+@media (min-width: 1200px) {
     .container-all {
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
+        align-items: center;
+        justify-content: center;
     }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .header-content {
+        gap: 24px;
+        max-width: 1200px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .list {
+        display: flex;
+        width: 100%;
+    }
+
+    .content-list {
+        display: flex;
+        width: 100%;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .svg-list-2 {
+        width: 16px;
+        height: 16px;
+    }
+
+    .svg-list-4 {
+        width: 16px;
+        height: 16px;
+    }
+
+    .text-list-box-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .text-list-1 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        font-family: 'SF Pro Display', sans-serif;
+                                                
+    }
+
+    .text-list-box-2 {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .text-list-2 {
+        font-size: 15px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    
+    .text-list-box-3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .text-list-3 {
+        font-size: 15px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .text-list-box-4 {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .text-list-4 {
+        font-size: 15px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
 }
