@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .header-container {
     background-color: rgb(9, 9, 11);
     border-bottom: 1px solid rgb(9, 9, 11);
@@ -25,6 +29,7 @@
     padding: 16px;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .brand-logo {
