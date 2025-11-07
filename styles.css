@@ -1,3 +1,13 @@
+.instrument-sans {
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -80,4 +90,8 @@
 .menu-icon__bar-2 {
     width: 20px;
     height: 2px;
+}
+
+.button {
+    display: none;
 }
