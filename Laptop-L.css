@@ -90,5 +90,8 @@
         line-height: 24px;
     }
 
+    .button-section-2 {
+        max-width: 1200px;
+    }
 
 }
