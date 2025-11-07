@@ -1,0 +1,6 @@
+@media (min-width: 1199px) {
+    .container-all {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+}
